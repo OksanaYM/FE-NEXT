@@ -12,7 +12,7 @@ export const getAllPosts = async (): Promise<IPost[]> =>{
     return posts
 };
 
-export const getUserById = async(id:number): Promise<IUser[]> =>{
+export const getUserById = async(id:number): Promise<IUser> =>{
     const userById = await fetch ('https://jsonplaceholder.typicode.com/users' + '/' + id)
         .then(value => value.json())
     return userById

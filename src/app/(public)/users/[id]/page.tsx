@@ -1,6 +1,7 @@
 import {FC} from "react";
 import {getUserById} from "@/Services/api.service";
-import {IUser} from "@/Components/Models/IUser";
+
+
 
 
 
@@ -17,7 +18,7 @@ const UserPage: FC<Props> = async({params}) =>{
         <div> user page content {id}
             {user.phone}
             {user.email}
-            Address: {user.address}
+            Address: {user.street}
             Company: {user.company}
 
         </div>
