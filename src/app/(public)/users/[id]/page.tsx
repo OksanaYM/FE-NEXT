@@ -15,7 +15,7 @@ const UserPage: FC<Props> = async({params}) =>{
 
     return(
         <div> user page content {id}
-
+            {user.phone}
             {user.email}
             Address: {user.address}
             Company: {user.company}
