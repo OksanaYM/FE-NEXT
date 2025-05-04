@@ -1,4 +1,4 @@
-import {getAllPosts} from "@/Components/Services/api.service";
+import {getAllPosts} from "@/Services/api.service";
 import {IPost} from "@/Components/Models/IPost";
 import {PostComponent} from "@/component/PostComponent";
 

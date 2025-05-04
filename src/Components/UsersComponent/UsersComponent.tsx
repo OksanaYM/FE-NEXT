@@ -1,4 +1,4 @@
-import {getAllUsers} from "@/Components/Services/api.service";
+import {getAllUsers} from "@/Services/api.service";
 import {IUser} from "@/Components/Models/IUser";
 import {UserComponent} from "@/component/UserComponent";
 
