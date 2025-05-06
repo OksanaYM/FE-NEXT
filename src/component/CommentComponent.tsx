@@ -9,7 +9,7 @@ type PropsTypeComment ={
 export const CommentComponent: FC<PropsTypeComment> =({comment}) =>{
     return(
         <div>
-            {<Link href={'/comments/' + comment.id.toString()}>{comment.id} - {comment.postId}: {comment.name}</Link>}
+            {<Link href={'/comments/' + comment.id}>{comment.id} - {comment.postId}: {comment.name}</Link>}
 
         </div>
     )

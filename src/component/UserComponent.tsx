@@ -8,7 +8,7 @@ type PropsTypeUser ={
 export const UserComponent: FC<PropsTypeUser> =({user}) =>{
     return(
         <div>
-            {<Link href={'/users/' + user.id.toString()}>{user.id} - {user.name}</Link>}
+            {<Link href={'/users/' + user.id}>{user.id} - {user.name}</Link>}
 
         </div>
     )
