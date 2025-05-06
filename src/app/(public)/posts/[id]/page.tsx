@@ -2,7 +2,7 @@ import {FC} from "react";
 import {getPostById} from "@/Services/api.service";
 
 
-export type Props = {params: {id:string}}
+export type Props = {params: {id:number}}
 
 const PostPage: FC<Props> = async({params}) =>{
     const{id} = await params

@@ -2,7 +2,7 @@ import {FC} from "react";
 import {getCommentById} from "@/Services/api.service";
 
 
-export type Props = {params: {id:string}}
+export type Props = {params: {id:number}}
 
 const CommentPage: FC<Props> = async({params}) =>{
     const{id} = await params

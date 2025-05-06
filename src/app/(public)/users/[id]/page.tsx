@@ -3,7 +3,7 @@ import {getUserById} from "@/Services/api.service";
 
 
 export type Props = {
-    params: {id:string}
+    params: {id:number}
 }
 
 
