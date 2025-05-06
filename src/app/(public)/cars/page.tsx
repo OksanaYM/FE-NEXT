@@ -1,9 +1,10 @@
 import {CarsComponent} from "@/Components/CarsComponent/CarsComponent";
 
-export const CarsPage = () =>{
+const CarsPage = () =>{
     return(
         <>
             <CarsComponent/>
         </>
     )
 }
+export default CarsPage
