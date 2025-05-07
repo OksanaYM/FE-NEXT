@@ -5,9 +5,9 @@ const CarsAddPage = () =>{
     return(
         <>
             <Form action={"/submit"}>
-                <input type={"text"} name={"name"} placeholder={"Brand"}/>
-                <input type={"number"} name={"name"} placeholder={"Year"}/>
-                <input type={"number"} name={"name"} placeholder={"Price"}/>
+                <input type={"text"} name={"brand"} placeholder={"Brand"}/>
+                <input type={"number"} name={"year"} placeholder={"Year"}/>
+                <input type={"number"} name={"price"} placeholder={"Price"}/>
                 <button>ADD CAR</button>
             </Form>
         </>

@@ -11,7 +11,7 @@ export const Menu = () =>{
                     <Link href={'/cars'}>Cars</Link>
                 </li>
                 <li>
-                    <Link href={'/add'}>Add cars</Link>
+                    <Link href={'/addCars'}>Add cars</Link>
                 </li>
             </ul>
         </div>

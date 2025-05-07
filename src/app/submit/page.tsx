@@ -9,7 +9,7 @@ const SubmitPage:FC<Props> = async ({searchParams}) =>{
         method: 'POST',
         headers: {
             'Accept': 'application/json',
-            'Content-Type': 'application.json'
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             key1: 'value1',
@@ -21,7 +21,7 @@ const SubmitPage:FC<Props> = async ({searchParams}) =>{
 
     return(
         <div>
-            {awaitSP.name}
+            {awaitSP.brand}
             {awaitSP.year}
         </div>
     )
