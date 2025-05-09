@@ -5,24 +5,21 @@ type Props = {
 }
 
 const SubmitPage:FC<Props> = async ({searchParams}) =>{
+    const awaitSP = await searchParams
     fetch('http://185.69.152.209/carsAPI/v1/cars', {
         method: 'POST',
         headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-            key1: 'value1',
-            key2: 'value2'
-        })
+        body: JSON.stringify(awaitSP)
     })
 
-    const awaitSP = await searchParams
+
 
     return(
         <div>
-            {awaitSP.brand}
-            {awaitSP.year}
+            {awaitSP.brand} - {awaitSP.year} - {awaitSP.price}
         </div>
     )
 
