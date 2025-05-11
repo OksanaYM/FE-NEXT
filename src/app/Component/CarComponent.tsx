@@ -7,9 +7,9 @@ type PropsTypeCar ={
 
 export const CarComponent: FC<PropsTypeCar> = ({car}) =>{
     return(
-        <>
+        <div>
             {<Link href={'/cars/' + car.id}> {car.id} - {car.brand} - {car.year} year  </Link>}
-        </>
+        </div>
     )
 
 }

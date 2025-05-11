@@ -5,7 +5,7 @@ export const Menu =() =>{
         <>
             <ul>
                 <li>
-                    <Link href={'/public'}>HOME</Link>
+                    <Link href={'/'}>HOME</Link>
                 </li>
                 <li>
                     <Link href={'/cars'}>Cars</Link>
