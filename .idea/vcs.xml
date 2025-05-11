@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DATABASE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/CONTROL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 1 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 2 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 3 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 4 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 5 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 6 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 7 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS/Lesson 8 HW" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/next-frontend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/react-frontend" vcs="Git" />
+  </component>
+</project>
