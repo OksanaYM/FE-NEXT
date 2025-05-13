@@ -11,6 +11,7 @@ export const CarsComponent = async () =>{
                 <CarComponent key={car.id} car={car}/>)
             }
 
+
         </div>
     )
 }

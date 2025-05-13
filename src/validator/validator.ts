@@ -1,4 +1,4 @@
-import * as Joi from "joi";
+import Joi from "joi"
 
 export const carValidator = Joi.object({
     brand: Joi.string().pattern(new RegExp('^[a-zA-Zа-яА-яёЁіІїЇєЄҐґ]{1,20}$'))

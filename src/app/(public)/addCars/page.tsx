@@ -1,20 +1,4 @@
-// import Form from "next/form";
-//
-// const CarsAddPage = () =>{
-//     return(
-//         <>
-//             <Form action={"/submit"}>
-//                 <input type={"text"} name={"brand"} placeholder={"Brand"}/>
-//                 <input type={"number"} name={"year"} placeholder={"Year"}/>
-//                 <input type={"number"} name={"price"} placeholder={"Price"}/>
-//                 <button>Add Car</button>
-//
-//             </Form>
-//         </>
-//     )
-// }
-// export default CarsAddPage
-
+"use client"
 
 
 import {useForm} from "react-hook-form";
@@ -35,15 +19,15 @@ const CarsAddPage = ()=>{
         <>
             <form onSubmit={handleSubmit(createHandler)}>
                 <div>
-                    <input type="text" {...register('brand')}/>
+                    <input type="text" placeholder={'Brand'} {...register('brand')}/>
                     <div>{errors.brand?.message}</div>
                 </div>
                 <div>
-                    <input type="number" {...register('price')}/>
+                    <input type="number" placeholder={'Price'} {...register('price')}/>
                     <div>{errors.price?.message}</div>
                 </div>
                 <div>
-                    <input type="number" {...register('year')}/>
+                    <input type="number" placeholder={'Year'} {...register('year')}/>
                     <div>{errors.year?.message}</div>
                 </div>
                 <button>SAVE CAR</button>
